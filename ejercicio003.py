@@ -7,7 +7,7 @@ def factorial(n):
         resultado *= i
     return resultado
 
-n = int(input("Ingresa n (total de elementos): "))
+n = int(input("Ingresa n (total de elements): "))
 k = int(input("Ingresa k (lugares a ordenar): "))
 
 if k < 0 or k > n:
